@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+  input:-webkit-autofill {
+    box-shadow: 0 0 0 1000px #200a35 inset !important; /* override autofill background */
+    -webkit-text-fill-color: #868988 !important;       /* proper text color for autofill */
+    caret-color: #868988 !important;                   /* optional: cursor color */
+    border: none !important;                           /* remove border */
+    outline: none !important;                          /* remove outline */
+    transition: background-color 9999s ease-out, color 9999s ease-out;
+
+  }
+}
+
+
