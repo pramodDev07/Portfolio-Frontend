@@ -876,6 +876,10 @@ video {
   gap: 4rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -886,6 +890,10 @@ video {
 
 .gap-\[80px\] {
   gap: 80px;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -1138,6 +1146,11 @@ video {
   padding-bottom: 5px;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1332,22 +1345,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[fill\=\"\#7e22ce\"\] {
-  color: fill="#7e22ce";
-}
-
-.text-\[\#7e22ce\] {
+.text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity, 1));
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
-.text-fuchsia-800 {
+.text-purple-600 {
   --tw-text-opacity: 1;
-  color: rgb(134 25 143 / var(--tw-text-opacity, 1));
+  color: rgb(147 51 234 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0 {
